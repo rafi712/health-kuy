@@ -4,7 +4,7 @@ const Links = () => {
       <a href='/' className='hover:text-[#0D66DD]'>
         Home
       </a>
-      <a href='#article' className='hover:text-[#0D66DD]'>
+      <a href='#articles' className='hover:text-[#0D66DD]'>
         Articles
       </a>
       <a href='#services' className='hover:text-[#0D66DD]'>

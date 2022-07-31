@@ -1,15 +1,7 @@
 import ReasonTile from './ReasonTile'
-import ReasonIconPeople from '../../assets/icons/reason-icon-people.svg'
-import ReasonIconFast from '../../assets/icons/reason-icon-fast.svg'
-import ReasonIconMoney from '../../assets/icons/reason-icon-money.svg'
+import { reasons } from '../../utils/data'
 
 const ReasonCaption = () => {
-  const reasons = [
-    { icon: ReasonIconPeople, title: 'no need to queue' },
-    { icon: ReasonIconFast, title: 'fast and easy process' },
-    { icon: ReasonIconMoney, title: 'price is very Affordable' },
-  ]
-
   return (
     <div>
       <p className='font-medium text-[18px] text-[#0C64DC]'>
