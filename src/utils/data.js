@@ -17,6 +17,9 @@ import Doctor2Image from '../assets/images/doctor2.png'
 import Doctor3Image from '../assets/images/doctor3.png'
 import Doctor4Image from '../assets/images/doctor4.png'
 
+import Testimonial1Image from '../assets/images/testimonial1.png'
+import Testimonial2Image from '../assets/images/testimonial2.png'
+
 const services = [
   { icon: RedIcon, title: 'Get Free Consultation' },
   { icon: GreenIcon, title: 'Medicinal Herb' },
@@ -75,4 +78,32 @@ const specialistAmount = [
   { amount: '2.5K+', type: 'Trusted Doctors' },
 ]
 
-export { services, reasons, articles, doctors, specialistAmount }
+const testimonials = [
+  { name: 'Reyna Botfrag', image: Testimonial1Image },
+  { name: 'Chamber Diff', image: Testimonial2Image },
+]
+
+const ourProduct = [
+  'Appointment Doctor',
+  'Free Consultation',
+  'Medicinal Herb',
+  'Find Trusted Doctor',
+  'Test Covid 19',
+  'Booster Vaccine',
+]
+
+const usefulLinks = ['Contact Us', 'About Us', 'Articles', 'Pharmacy']
+
+const tipsAndTricks = ['Tiktok', 'Blog', 'Twitter', 'Instagram']
+
+export {
+  services,
+  reasons,
+  articles,
+  doctors,
+  specialistAmount,
+  testimonials,
+  ourProduct,
+  usefulLinks,
+  tipsAndTricks,
+}
