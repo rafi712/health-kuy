@@ -1,8 +1,8 @@
 const AuthButtons = () => {
   return (
     <div className='flex'>
-      <button className='w-[130px] font-medium py-3 px-8'>Sign In</button>
-      <button className='w-[130px] bg-sky-100 focus:ring-2 focus:ring-inset py-3 px-8 hover:bg-sky-200 hover:text-sky-700 text-sky-600 active:bg-sky-300 active:text-white rounded-xl font-medium'>
+      <button className='w-[130px] py-3 px-8 font-medium'>Sign In</button>
+      <button className='w-[130px] rounded-xl bg-sky-100 py-3 px-8 font-medium text-sky-600 hover:bg-sky-200 hover:text-sky-700 focus:ring-2 focus:ring-inset active:bg-sky-300 active:text-white'>
         Register
       </button>
     </div>

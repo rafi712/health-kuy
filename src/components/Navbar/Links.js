@@ -1,6 +1,6 @@
 const Links = () => {
   return (
-    <div className='w-[372px] flex justify-between font-medium'>
+    <div className='flex w-[372px] justify-between font-medium'>
       <a href='/' className='hover:text-[#0D66DD]'>
         Home
       </a>

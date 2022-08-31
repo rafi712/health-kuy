@@ -1,19 +1,8 @@
-import Navbar from './Navbar'
-import Hero from './Hero'
-import Services from './Services'
-import Specialist from './Specialist'
-import Reason from './Reason'
-import Testimonials from './Testimonials'
-import Footer from './Footer'
-import Articles from './Articles'
-
-export {
-  Navbar,
-  Hero,
-  Services,
-  Specialist,
-  Reason,
-  Testimonials,
-  Articles,
-  Footer,
-}
+export { default as Navbar } from './Navbar'
+export { default as Services } from './Services'
+export { default as Hero } from './Hero'
+export { default as Specialist } from './Specialist'
+export { default as Reason } from './Reason'
+export { default as Testimonials } from './Testimonials'
+export { default as Footer } from './Footer'
+export { default as Articles } from './Articles'

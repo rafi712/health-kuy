@@ -5,7 +5,7 @@ const BrandIcon = () => {
     <a href='/'>
       <div className='flex'>
         <img src={Icon} alt='icon' />
-        <p className='font-bold text-2xl pl-3 text-[#232631]'>HealthKuy</p>
+        <p className='pl-3 text-2xl font-bold text-[#232631]'>HealthKuy</p>
       </div>
     </a>
   )

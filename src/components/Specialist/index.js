@@ -5,7 +5,7 @@ const Specialist = () => {
   return (
     <section
       id='pharmacy'
-      className='p-14 mt-32 rounded-xl bg-white flex justify-between'
+      className='mt-32 flex justify-between rounded-xl bg-white p-14'
     >
       <SpecialistTiles />
       <SpecialistCaption />

@@ -1,15 +1,15 @@
 const ArticlesSectionTitle = () => {
   return (
-    <div className='flex justify-between items-center'>
+    <div className='flex items-center justify-between'>
       <div>
-        <p className='font-medium text-[18px] text-[#0C64DC]'>
+        <p className='text-[18px] font-medium text-[#0C64DC]'>
           Latest Articles
         </p>
-        <h2 className='font-semibold text-[32px] capitalize mt-1'>
+        <h2 className='mt-1 text-[32px] font-semibold capitalize'>
           useful article for you to read
         </h2>
       </div>
-      <button className='border py-3 px-8 rounded-xl border-[#0C64DC] text-[#0C64DC] font-medium'>
+      <button className='rounded-xl border border-[#0C64DC] py-3 px-8 font-medium text-[#0C64DC]'>
         See More Article
       </button>
     </div>

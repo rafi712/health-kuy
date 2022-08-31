@@ -9,7 +9,7 @@ import {
   Testimonials,
 } from './components'
 
-function HealthKuyApp() {
+const App = () => {
   return (
     <div className='App bg-[#FAFAFA]'>
       <Navbar />
@@ -26,4 +26,4 @@ function HealthKuyApp() {
   )
 }
 
-export default HealthKuyApp
+export default App

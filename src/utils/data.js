@@ -20,27 +20,27 @@ import Doctor4Image from '../assets/images/doctor4.png'
 import Testimonial1Image from '../assets/images/testimonial1.png'
 import Testimonial2Image from '../assets/images/testimonial2.png'
 
-const services = [
+export const services = [
   { icon: RedIcon, title: 'Get Free Consultation' },
   { icon: GreenIcon, title: 'Medicinal Herb' },
   { icon: OrangeIcon, title: 'Make an Appointment' },
   { icon: BlueIcon, title: 'Find Trusted Doctor' },
 ]
 
-const doctors = [
+export const doctors = [
   { image: Doctor1Image },
   { image: Doctor2Image },
   { image: Doctor3Image },
   { image: Doctor4Image },
 ]
 
-const reasons = [
+export const reasons = [
   { icon: ReasonIconPeople, title: 'no need to queue' },
   { icon: ReasonIconFast, title: 'fast and easy process' },
   { icon: ReasonIconMoney, title: 'price is very Affordable' },
 ]
 
-const articles = [
+export const articles = [
   {
     title: 'how to reduce dizziness in the back of the head',
     category: 'Healthy Living',
@@ -71,19 +71,19 @@ const articles = [
   },
 ]
 
-const specialistAmount = [
+export const specialistAmount = [
   { amount: '320+', type: 'Pediatrician' },
   { amount: '210+', type: 'Obstetricians' },
   { amount: '190+', type: 'Experienced Nurse' },
   { amount: '2.5K+', type: 'Trusted Doctors' },
 ]
 
-const testimonials = [
+export const testimonials = [
   { name: 'Reyna Botfrag', image: Testimonial1Image },
   { name: 'Chamber Diff', image: Testimonial2Image },
 ]
 
-const ourProduct = [
+export const ourProduct = [
   'Appointment Doctor',
   'Free Consultation',
   'Medicinal Herb',
@@ -92,18 +92,18 @@ const ourProduct = [
   'Booster Vaccine',
 ]
 
-const usefulLinks = ['Contact Us', 'About Us', 'Articles', 'Pharmacy']
+export const usefulLinks = ['Contact Us', 'About Us', 'Articles', 'Pharmacy']
 
-const tipsAndTricks = ['Tiktok', 'Blog', 'Twitter', 'Instagram']
+export const tipsAndTricks = ['Tiktok', 'Blog', 'Twitter', 'Instagram']
 
-export {
-  services,
-  reasons,
-  articles,
-  doctors,
-  specialistAmount,
-  testimonials,
-  ourProduct,
-  usefulLinks,
-  tipsAndTricks,
-}
+// export {
+//   services,
+//   reasons,
+//   articles,
+//   doctors,
+//   specialistAmount,
+//   testimonials,
+//   ourProduct,
+//   usefulLinks,
+//   tipsAndTricks,
+// }

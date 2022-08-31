@@ -5,13 +5,13 @@ import { ourProduct, usefulLinks, tipsAndTricks } from '../../utils/data'
 
 const Footer = () => {
   return (
-    <footer className='mt-32 bg-[#232631] p-16 flex relative overflow-hidden gap-28'>
+    <footer className='relative mt-32 flex gap-28 overflow-hidden bg-[#232631] p-16'>
       <div>
         <div className='flex'>
           <img src={BrandIcon} alt='' width={35} height={35} />
-          <h3 className='text-2xl text-white font-bold ml-3'>HealthKuy</h3>
+          <h3 className='ml-3 text-2xl font-bold text-white'>HealthKuy</h3>
         </div>
-        <p className='text-[#6B738E] mt-8'>
+        <p className='mt-8 text-[#6B738E]'>
           Copyright © 2022. All <br /> Rights Reserved.
         </p>
       </div>
