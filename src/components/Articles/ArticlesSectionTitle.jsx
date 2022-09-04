@@ -1,11 +1,9 @@
 const ArticlesSectionTitle = () => {
   return (
-    <div className='flex items-center justify-between'>
+    <div className='flex flex-col justify-between gap-8 lg:flex-row lg:items-center lg:gap-0'>
       <div>
-        <p className='text-[18px] font-medium text-[#0C64DC]'>
-          Latest Articles
-        </p>
-        <h2 className='mt-1 text-[32px] font-semibold capitalize'>
+        <p className='blue-section-title'>Latest Articles</p>
+        <h2 className='black-section-title mt-1 capitalize'>
           useful article for you to read
         </h2>
       </div>

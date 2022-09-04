@@ -4,11 +4,10 @@ import { reasons } from '../../utils/data'
 const ReasonCaption = () => {
   return (
     <div>
-      <p className='text-[18px] font-medium text-[#0C64DC]'>
-        Our Extra Services
-      </p>
-      <h2 className='mt-1 text-[32px] font-semibold capitalize'>
-        3 reasons why you should <br /> choose our services
+      <p className='blue-section-title'>Our Extra Services</p>
+      <h2 className='black-section-title mt-1 capitalize'>
+        3 reasons why you should <br className='hidden lg:block' /> choose our
+        services
       </h2>
       <div className='mt-8'>
         {reasons.map((reason) => (

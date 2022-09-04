@@ -9,7 +9,7 @@ const ServiceCard = ({ icon, title }) => {
         Lorem Ipsum is simply dummy text of the printing typesetting industry.
       </p>
       <a
-        href='/'
+        href='#'
         className='group inline-flex cursor-pointer font-medium text-[#EB7530]'
       >
         Read Details

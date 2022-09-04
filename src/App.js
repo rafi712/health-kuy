@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className='App bg-[#FAFAFA]'>
       <Navbar />
-      <div className='px-16'>
+      <div className='px-16 pt-16'>
         <Hero />
         <Services />
         <Specialist />

@@ -4,9 +4,9 @@ import { articles } from '../../utils/data'
 
 const Articles = () => {
   return (
-    <section id='articles' className='mt-32'>
+    <section id='articles' className='pt-32'>
       <ArticlesSectionTitle />
-      <div className='mt-8 flex gap-9'>
+      <div className='mt-14 flex flex-col gap-9 lg:mt-8 lg:flex-row'>
         {articles.map((article) => (
           <ArticleCard
             title={article.title}
