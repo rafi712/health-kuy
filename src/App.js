@@ -11,9 +11,9 @@ import {
 
 const App = () => {
   return (
-    <div className='App bg-[#FAFAFA]'>
+    <div className='bg-[#FAFAFA]'>
       <Navbar />
-      <div className='px-16 pt-16'>
+      <div className='px-8 lg:px-16 lg:pt-20'>
         <Hero />
         <Services />
         <Specialist />

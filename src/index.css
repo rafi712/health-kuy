@@ -8,15 +8,28 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
-}
-
 nav {
   z-index: 10;
 }
 
 nav.scrolled {
-  @apply shadow-lg;
+  box-shadow: -3.6px -2.2px 5.3px -12px rgba(0, 0, 0, 0.016),
+    12.8px 7.9px 17.9px -12px rgba(0, 0, 0, 0.027),
+    82px 51px 80px -12px rgba(0, 0, 0, 0.05);
 }
 
+@layer base {
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@layer components {
+  .blue-section-title {
+    @apply text-base font-medium text-[#0C64DC] lg:text-[18px];
+  }
+
+  .black-section-title {
+    @apply text-2xl font-semibold lg:text-[32px] lg:leading-normal;
+  }
+}
